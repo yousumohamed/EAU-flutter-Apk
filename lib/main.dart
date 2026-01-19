@@ -48,6 +48,7 @@ class _WebViewPageState extends State<WebViewPage> {
     _controller = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
       ..setBackgroundColor(Colors.white)
+      ..enableZoom(true) // Enable pinch-to-zoom
       ..setNavigationDelegate(
         NavigationDelegate(
           onProgress: (int progress) {
