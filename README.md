@@ -100,6 +100,17 @@ flutter build apk --release --split-per-abi
 ```
 > This generates optimized APKs in `build/app/outputs/flutter-apk/`
 
+## 🤝 Contributing
+
+Contributions are always welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
+
+- 🐛 Report bugs by opening [issues](https://github.com/yousumohamed/EAU-flutter-Apk/issues)
+- 💡 Submit PRs for new features
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ---
 
 <div align="center">
