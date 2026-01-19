@@ -68,6 +68,38 @@ A seamless, native Android application for the **East Africa University (EAU) Ga
 - **Architecture**: Split ABI for minimized APK size
 - **Design**: Material 3 with custom color palette (`#333D79`, `#FAEBEF`)
 
+## 👨‍💻 Developer Guide
+
+Want to run this project locally? Follow these simple steps:
+
+### 📥 1. Clone Process
+```bash
+git clone https://github.com/yousumohamed/EAU-flutter-Apk.git
+cd EAU-flutter-Apk
+```
+
+### 📦 2. Install Dependencies
+<img src="https://img.shields.io/badge/Dart-Pub%20Get-0175C2?style=for-the-badge&logo=dart&logoColor=white" height="28">
+
+```bash
+flutter pub get
+```
+
+### 📱 3. Run the App
+<img src="https://img.shields.io/badge/Run-Debug-3DDC84?style=for-the-badge&logo=android&logoColor=white" height="28">
+
+```bash
+flutter run
+```
+
+### 🔨 4. Build Release APK
+<img src="https://img.shields.io/badge/Build-Release-FFCA28?style=for-the-badge&logo=flutter&logoColor=black" height="28">
+
+```bash
+flutter build apk --release --split-per-abi
+```
+> This generates optimized APKs in `build/app/outputs/flutter-apk/`
+
 ---
 
 <div align="center">
